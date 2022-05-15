@@ -1,4 +1,4 @@
-FROM openjdk:17.0
+FROM openjdk:18.0-jdk
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
